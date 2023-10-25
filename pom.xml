@@ -59,6 +59,9 @@
 				<executions>
 					<execution>
 						<phase>test</phase>
+						<goals>
+							<goal>testsmell</goal>
+						</goals>
 					</execution>
 				</executions>
 				<configuration>
