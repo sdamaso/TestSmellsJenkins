@@ -65,7 +65,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<csvInput implementation="java.lang.String">${csv.input}</csvInput>
+					<csvInput>input.csv</csvInput>
 				</configuration>
 				<dependencies>
 					<dependency>
